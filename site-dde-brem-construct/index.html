@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DDE BREM CONSTRUCT | Pagina Principală</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="page-index">
+
+  <!-- MENIU -->
+  <header class="navbar">
+  <div class="container nav-container">
+    <a href="index.html" class="logo">DDE BREM <span>CONSTRUCT</span></a>
+
+    <button class="hamburger-btn" aria-label="Deschide Meniu" id="hamburgerBtn">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <nav class="nav-links" id="navMenu">
+      <a href="index.html" class="active">Acasă</a>
+      <a href="servicii.html">Servicii & Proces</a>
+      <a href="galerie.html">Galerie Foto</a>
+      <a href="contact.html" class="btn-primary">Contact</a>
+    </nav>
+  </div>
+</header>
+  <!-- HERO BANNER -->
+  <section class="hero hero-bg">
+    <div class="container hero-content-box">
+      <span class="badge">Echipă de Încredere în Construcții</span>
+      <h1>Construit cu rigoare. Predat la cheie.</h1>
+      <p>Construcții la roșu, acoperișuri și finisaje de durată. Fără costuri ascunse și fără întârzieri nejustificate.</p>
+    </div>
+  </section>
+
+  <!-- DE CE SĂ NE ALEGI (Exclusiv pentru Index) -->
+  <section class="section bg-card-sec">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-title">Atitudinea Noastră</span>
+        <h2>De ce să lucrezi cu DDE BREM CONSTRUCT</h2>
+      </div>
+
+      <div class="process-grid-4">
+        <div class="process-step">
+          <div class="step-badge">01</div>
+          <h3>Transparență Bugetară</h3>
+          <p>Scriem clar în ofertă ce include prețul. Fără adaosuri neprevăzute pe parcursul lucrării.</p>
+        </div>
+
+        <div class="process-step">
+          <div class="step-badge">02</div>
+          <h3>Materiale și Rigoare</h3>
+          <p>Respectăm specificațiile tehnice, dozele și timpii de uscare. Nu facem compromisuri la calitate.</p>
+        </div>
+
+        <div class="process-step">
+          <div class="step-badge">03</div>
+          <h3>Șantier Curat</h3>
+          <p>Organizăm spațiul de lucru eficient și lăsăm curățenie la finalul fiecărei etape de predare.</p>
+        </div>
+
+        <div class="process-step">
+          <div class="step-badge">04</div>
+          <h3>Seriozitate & Comunicare</h3>
+          <p>Suntem pe teren zilnic și vă ținem la curent cu fiecare etapă realizată din proiect.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA INDEX -->
+  <section class="section cta-bg">
+    <div class="container text-center" style="text-align: center;">
+      <h2>Vrei să vezi detaliile tehnice sau portofoliul?</h2>
+      <p style="color: var(--text-muted); margin: 15px 0 25px;">Află totul despre serviciile noastre sau explorează galeria foto cu lucrările executate.</p>
+      <div class="hero-btns">
+        <a href="servicii.html" class="btn-primary">Vezi Servicii & Proces →</a>
+        <a href="contact.html" class="btn-secondary">Contact Direct</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-content">
+        <div class="footer-info">
+            <p><strong>DDE BREM CONSTRUCT S.R.L.</strong></p>
+            <p>CUI: <span>[AICI_PUI_CUI]</span> | Reg. Com.: <span>[AICI_PUI_NR_J]</span></p>
+            <p>© 2026 DDE BREM CONSTRUCT SRL. Toate drepturile rezervate.</p>
+        </div>
+        <div class="footer-anpc">
+            <a href="https://anpc.ro/" target="_blank" rel="nofollow">ANPC</a> |
+            <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="nofollow">SOL</a>
+        </div>
+    </div>
+</footer>
+
+<!-- SCRIPT MOBIL HAMBURGER -->
+  <script>
+    const hamburgerBtn = document.getElementById('hamburgerBtn');
+    const navMenu = document.getElementById('navMenu');
+
+    if (hamburgerBtn && navMenu) {
+      hamburgerBtn.addEventListener('click', () => {
+        hamburgerBtn.classList.toggle('active');
+        navMenu.classList.toggle('active');
+      });
+
+      // Închide meniul la click pe orice link
+      document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+          hamburgerBtn.classList.remove('active');
+          navMenu.classList.remove('active');
+        });
+      });
+    }
+  </script>
+</body>
+</html>
