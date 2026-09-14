@@ -1,2 +1,2 @@
 # DDE-BREM-CONSTRUCT
-Site constructii
+DDE BREM CONSTRUCT este o firmă de construcții din Râșca, județul Suceava, specializată în construcții la roșu, acoperișuri și finisaje de durată. Lucrăm cu transparență bugetară totală – scriem clar în ofertă ce include prețul, fără costuri ascunse pe parcursul lucrării. Respectăm specificațiile tehnice, dozele și timpii de uscare, fără compromisuri la calitate. Menținem șantierul organizat și curat la finalul fiecărei etape și comunicăm constant cu clientul despre progresul proiectului. Construim cu rigoare și predăm la cheie.
